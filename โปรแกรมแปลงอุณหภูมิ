@@ -1,0 +1,14 @@
+temp = input("Inser Degree:")
+degree = int(temp[:-1])
+unit = temp[-1:].upper()
+
+
+if unit == 'C':
+    result=(9*degree)/5+32
+    unit_result="F"
+elif unit == 'F':
+    result=(degree - 32)*5/9
+    unit_result="C"
+
+
+print(result,unit_result)
