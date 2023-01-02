@@ -1,0 +1,9 @@
+import random
+foodlist = ["กะเพรา", "ผัดไทย","ไข่เจียว","ส้มตำ","หมูปิ้ง","เบอร์เกอร์","พิซซ่า,ขนมปัง,สปาเกตตี้,"]
+checker = "y"
+while True :
+    if checker =="y":
+        print("อาหารที่สุ่มได้ :",random.choice(foodlist))
+        checker = input("ต้องการสุ่มอีกไหม ใช่พิมพ์ y ไม่พิมพ์ n =")
+    else:
+        break
