@@ -1,0 +1,21 @@
+# BMI = weight (kg) / hight(M)**
+#input
+weight=int(input("insert ur weight (kg):"))
+hight=int(input("insert ur hight (cm):"))
+
+#process
+# cm>m
+hight=hight/100
+#calculate bmi
+x=weight/(hight*hight)
+
+if x <= 18:
+    print("ต่ำกว่าเกรณฑ์")
+elif x <= 22.9:
+    print("ตามเกรณฑ์")
+else:
+    print("สูงกว่าเกรณฑ์")
+
+#outpu
+print("BMI: ",x)
+
