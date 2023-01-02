@@ -1,0 +1,10 @@
+
+import random
+
+#สุ่มเลข
+random.randrange(1,10) # สุ่ม 1-9
+myrandom = random.randrange(1,7) 
+print(myrandom)
+
+while True :
+    number = int(input("insert number"))
